@@ -126,3 +126,25 @@ a:hover {
     
 
   }
+
+  /* media queries */
+@media (max-width: 780px) {
+
+    body{
+        height: 140vh;
+    }
+    .maincard {
+    flex-direction: column;
+    margin-top: 10px;
+    }
+
+    .info {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .icons {
+   justify-content: end;
+    }
+
+  }
