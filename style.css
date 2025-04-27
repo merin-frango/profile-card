@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*main card*/
+.maincard {
+    width: 950px;
+    height: 800px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+/* left side */
+.card-left {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    background: linear-gradient(135deg, #004ff9 0%, #000000 100%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 10px;
+    color: white;
+}
+
+.card-left img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: rgb(85, 99, 187) 0px 5px 15px;
+}
+
+.card-left h1 {
+    font-size: 28px !important;
+}
+
+.card-left p {
+    font-size: 12px !important;
+}
+
+/* right side */
+
+.section {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.info {
+    display: flex;
+    gap: 75px;
+}
+
+.card-right {
+    font-size: 14px !important;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.projects {
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+}
+
+.icons {
+    margin-top: 25px;
+    display: flex;
+    gap: 40px;
+}
+
+.icons i {
+    scale: 150%;
+}
+
+.icons i:hover {
+    color: rgb(35, 57, 180);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(35, 57, 180);
+}
+
+/* media queries */
+@media (max-width: 450px) {
+    .maincard {
+    flex-direction: column;
+    margin-top: 10px;
+    }
+
+    .info {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+
+  }
